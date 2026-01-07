@@ -21,9 +21,9 @@ export default function HomePage() {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="flex items-center justify-between h-14 md:h-16">
             {/* Logo - Right Side (RTL) */}
-            <a href="#home" className="flex items-center gap-1.5 group cursor-pointer">
-              <div className="text-primary transition-transform group-hover:rotate-12 duration-300">
-                <Icons.coffee className="w-6 h-6 md:w-7 md:h-7" />
+            <a href="#home" className="flex items-center gap-2 group cursor-pointer">
+              <div className="text-primary transition-transform group-hover:scale-110 duration-300">
+                <Icons.dallah className="w-8 h-8 md:w-9 md:h-9" />
               </div>
               <h1 className="text-sm md:text-base font-bold tracking-wide group-hover:text-primary transition-colors duration-300">قهوجي الرياض</h1>
             </a>
@@ -945,9 +945,9 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-center items-start gap-12 md:gap-20 lg:gap-32 mb-10">
             <div className="space-y-4 text-center md:text-right">
-              <div className="flex items-center gap-1.5 mb-3 justify-center md:justify-start">
+              <div className="flex items-center gap-2 mb-3 justify-center md:justify-start">
                 <div className="text-primary">
-                  <Icons.coffee className="w-6 h-6" />
+                  <Icons.dallah className="w-8 h-8" />
                 </div>
                 <h2 className="text-lg font-bold text-white">قهوجي الرياض</h2>
               </div>

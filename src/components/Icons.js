@@ -1,6 +1,14 @@
 // SVG Icons Component
 export const Icons = {
-  // Coffee/Dallah Icon
+  // Arabic Dallah (Traditional Coffee Pot) Icon
+  dallah: ({ className = "w-6 h-6" }) => (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 1c-.5 0-1 .2-1.4.6L9.2 3H8c-.6 0-1 .4-1 1v1H6c-1.1 0-2 .9-2 2v2c0 .6.4 1 1 1h.1l1.5 10.5c.2 1.4 1.4 2.5 2.9 2.5h5c1.5 0 2.7-1.1 2.9-2.5L19 10h.1c.6 0 1-.4 1-1V7c0-1.1-.9-2-2-2h-1V4c0-.6-.4-1-1-1h-1.2l-1.4-1.4c-.4-.4-.9-.6-1.4-.6zm0 2l1 1h-2l1-1zm-4 4h8v1H8V7zm.5 3h7l-1.3 9.2c-.1.5-.5.8-1 .8h-3.4c-.5 0-.9-.3-1-.8L8.5 10z"/>
+      <ellipse cx="12" cy="14" rx="2" ry="1.5" opacity="0.3"/>
+    </svg>
+  ),
+
+  // Coffee Cup Icon (alternative)
   coffee: ({ className = "w-6 h-6" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M17 8h1a4 4 0 0 1 0 8h-1"/>
